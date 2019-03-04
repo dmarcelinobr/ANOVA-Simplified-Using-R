@@ -7,67 +7,85 @@ This is a set of notes introducing the Analysis of Variance (ANOVA for short) fo
      
 
 # Outline
+
 - [ ] Add an `Introduction`
 
-# What is Anova and what is its purpose?
+## What is Anova and what is its purpose?
+
 - [ ] Concepts
     - [ ] Examples
 
-# What are the various types of Anova that can be calculated?
+## What are the various types of Anova that can be calculated?
+
 - [ ] 
 
 
-# Can you explain the various types of Anova in more details?
+## Can you explain the various types of Anova in more details?
+
 - [ ] 
 
-# What is replication?
+## What is replication?
+
 - [ ] 
 
-# Is there any limitation of one-way Anova calculation?
+## Is there any limitation of one-way Anova calculation?
+
 - [ ] 
 
-# Is knowledge of basic statistics required to understand Anova?
+## Is knowledge of basic statistics required to understand Anova?
+
 - [ ] 
 
-# What are the basic assumptions of Anova?
+## What are the basic assumptions of Anova?
+
 - [ ] 
 
-# Why should I learn Anova?
+## Why should I learn Anova?
 - [ ] 
 
-# Step-by-Step Calculation
+## Step-by-Step Calculation
+
 - [ ] Manual methods
 - [ ] Computational methods
 
-# One way Anova through R
+## One way Anova through R
+
 - [ ] Introduction to R
 - [ ] Reading Data into R
 - [ ] Computing Anova in R
     - Working with Data: Campaign Finance in Elections 
     
-# One way Anova through R with larger number of observations
+## One way Anova through R with larger number of observations
+
 - [ ] 
 
-# Link for Downloadable Files 
+## Link for Downloadable Files 
+
 - [ ] Create an online repository 
 
-# Two way Anova, without replication through R 
+## Two way Anova, without replication through R 
+
 - [ ] 
 
-# Two way Anova with replication through R
+## Two way Anova with replication through R
+
 - [ ] 
 
-# Link to downloadable scripts and files
+## Link to downloadable scripts and files
+
 - [ ] Create an online repository 
 
-# MANOVA and MANCOVA
+## MANOVA and MANCOVA
+
 - [ ] What MANOVA is?
  - [ ] Examples
 - [ ] What MANCOVA is?
  - [ ] Examples
 
-# Disclaimer 
+## Disclaimer 
+
 - [ ] 
 
-# Supporting website
+## Supporting website
+
 - [ ] Create an github static website for this project
