@@ -3,7 +3,7 @@ This is a set of notes introducing the Analysis of Variance (ANOVA for short) fo
 
 # Immediate To-Do
 - Misc.
-   - [ ] add `About the Author`
+   - [ ] Add a section `About the Author`
      
 
 # Outline
@@ -17,16 +17,17 @@ This is a set of notes introducing the Analysis of Variance (ANOVA for short) fo
 
 ## What are the various types of Anova that can be calculated?
 
-- [ ] 
+- [ ] Add a table with various types of Anova
 
 
 ## Can you explain the various types of Anova in more details?
 
-- [ ] 
+- [ ] Add summarized explanations about the various types of Anova
 
 ## What is replication?
 
-- [ ] 
+- [ ] Concepts
+    - [ ] Examples
 
 ## Is there any limitation of one-way Anova calculation?
 
@@ -84,7 +85,7 @@ This is a set of notes introducing the Analysis of Variance (ANOVA for short) fo
 
 ## Disclaimer 
 
-- [ ] 
+- [ ] Add a paragraph or two
 
 ## Supporting website
 
