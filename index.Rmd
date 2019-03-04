@@ -23,10 +23,18 @@ favicon: "images/favicon.ico"
 
 
 ```{r setup, include=FALSE}
+if(!knitr:::is_html_output())
+{
+  options("width"=56)
+  knitr::opts_chunk$set(tidy.opts=list(width.cutoff=56, indent = 2), tidy = TRUE)
+  knitr::opts_chunk$set(fig.pos = 'H')
+}
+
 options(
   htmltools.dir.version = FALSE, formatR.indent = 2,
   width = 55, digits = 4, warnPartialMatchAttr = FALSE, warnPartialMatchDollar = FALSE
 )
+
 local({
   r = getOption('repos')
   if (!length(r) || identical(unname(r['CRAN']), '@CRAN@'))
