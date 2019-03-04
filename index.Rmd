@@ -1,7 +1,7 @@
 --- 
 title: "ANOVA Simplified Using R"
 author: "Daniel Marcelino"
-date: "`r Sys.Date()`"
+date: "`r format(Sys.time(), '%B %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -10,6 +10,9 @@ link-citations: yes
 colorlinks: yes
 lot: yes
 lof: yes
+linestretch: 1.15
+linkcolor: NavyBlue
+links-as-notes: true
 fontsize: 13pt
 monofont: "Source Code Pro"
 monofontoptions: "Scale=0.7"
