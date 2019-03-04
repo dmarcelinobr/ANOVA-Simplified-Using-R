@@ -1,0 +1,90 @@
+---
+title: "Data Sources"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r include=FALSE}
+# load packages
+library(tidyverse)
+library(magrittr)
+```
+
+- `anes`
+    - url: http://www.electionstudies.org/studypages/download/datacenter_all_datasets.php
+    - accessed: 2018-01-02.
+    - raw filename: `raw-data/anes_timeseries_2016.dta`.
+    - raw codebooks: `raw-data/codebooks/anes_timeseries_2016_userguidecodebook.pdf` and `raw-data/codebooks/anes_timeseries_2016_varlist.pdf`.
+
+```{r message=FALSE, warning=FALSE}
+# load data
+anes_df <- read_rds("anes.rds")
+
+# quick look
+glimpse(anes_df)
+```
+
+----
+
+- `parties`
+    - citation: William Clark; Matt Golder, 2007, "Replication data for: Rehabilitating Duverger's Theory: Testing the Mechanical and Strategic Modifying Effects of Electoral Laws", hdl:1902.1/10477, Harvard Dataverse, V1, UNF:3:9vZjXJDKPmggOHufBr6UKw==.
+    - accessed: 2018-01-04
+    - raw filename: `raw-data/Legislative_new.dta`.
+    - raw codebook: see `.do` file `raw-data/codebooks/Electoral1_cps2.do`.
+    - codebook: `codebooks/parties-codebook.html` and `codebooks/parties-codebook.pdf`.
+    - example: `examples/example-parties.R` and `examples/example-parties.html`. 
+    
+```{r message=FALSE, warning=FALSE}
+# load data
+parties_df <- read_rds("parties.rds")
+
+# quick look
+glimpse(parties_df)
+```
+
+----
+
+- `progresa`
+    - citation: De La O., Ana, L. 2013. "Do conditional cash transfers affect electoral behavior? Evidence from a randomized experiment in Mexico." *American Journal of Political Science* 57(1): 1-14.
+    - accessed: 2018-01-08.
+    - raw data: `raw-data/DeLaO_AJPS2013_rep_file.dta`
+    - raw codebook: `raw-data/codebooks/DeLaO_AJPS2012.do`
+    - link: http://campuspress.yale.edu/anadelao/research/
+    - codebook: `codebooks/progresa-codebook.html` and `codebooks/progresa-codebook.pdf`.
+    - example: `examples/example-progresa.R` and `examples/example-progresa.html`. 
+    
+```{r message=FALSE, warning=FALSE}
+# load data
+progresa_df <- read_rds("progresa.rds")
+
+# quick look
+glimpse(progresa_df)
+```    
+
+----
+
+- `social-pressure`
+    - citation: Gerber, Alan S., Donald P. Green, and Christopher W. Larimer. 2008. "Social pressure and voter turnout: Evidence from a large-scale field experiment." *American Political Science Review* 102(1): 33-48.
+    - raw data: `raw-data/GerberGreenLarimer_APSR_2008_social_pressure.csv`.
+    - accessed: 2017-01-05.
+    - link: https://isps.yale.edu/research/data/d001.
+    - codebook: `codebooks/social-pressure-codebook.html` and `codebooks/social-pressure-codebook.pdf`.
+    - example: `examples/example-social-pressure.R` and `examples/example-social-pressure.html`. 
+    
+----    
+
+- `state-governments`
+    - citation: Klarner, Carl, 2013, "State Partisan Balance Data, 1937 - 2011", hdl:1902.1/20403, Harvard Dataverse, V1. 
+    - accessed: 2018-01-02. 
+    - raw filename: `raw-data/Partisan_Balance_For_Use2011_06_09b.xlsx`.
+    - raw codebook: `raw-data/codebooks/Partisan_Balance_For_Use2012_10_18_Codebook.docx`.
+
+```{r message=FALSE, warning=FALSE}
+# load data
+state_governments_df <- read_rds("state-governments.rds")
+
+# quick look
+glimpse(state_governments_df)
+```

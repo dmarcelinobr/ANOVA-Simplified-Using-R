@@ -1,0 +1,12 @@
+# disallow
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+~*
+.DS_Store
+_book
+
+# allow
+ANOVA_Simplified_Using_R.pdf
+ANOVA_Simplified_Using_R.tex
