@@ -1,11 +1,14 @@
 # disallow
 .Rproj.user
+.Ruserdata
 .Rhistory
 .RData
-.Ruserdata
-~*
 .DS_Store
+_publish.R
 _book
+_bookdown_files
+rsconnect
+~*
 
 # allow
 ANOVA_Simplified_Using_R.pdf
