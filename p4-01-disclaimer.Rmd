@@ -1,0 +1,3 @@
+# Disclaimer {#disclaimer}
+
+This book is written for nonprofit educational purpose and not for commercial application. Permission is granted to reproduce for personal and educational use only. The author and the publisher are not responsible for any commercial decision taken or not taken based solely on what is written in this book.

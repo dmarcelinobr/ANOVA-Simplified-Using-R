@@ -64,7 +64,7 @@ This is a set of notes introducing the Analysis of Variance (ANOVA for short) fo
 
 - [ ] Create an online repository 
 
-## Two way Anova, without replication through R 
+## Two way Anova without replication through R 
 
 - [ ] 
 
@@ -76,7 +76,7 @@ This is a set of notes introducing the Analysis of Variance (ANOVA for short) fo
 
 - [ ] Create an online repository 
 
-## MANOVA and MANCOVA
+## Advanced Topics: MANOVA and MANCOVA
 
 - [ ] What MANOVA is?
  - [ ] Examples
@@ -85,8 +85,8 @@ This is a set of notes introducing the Analysis of Variance (ANOVA for short) fo
 
 ## Disclaimer 
 
-- [ ] Add a paragraph or two
+- [x] Add a paragraph or two
 
 ## Supporting website
 
-- [ ] Create an github static website for this project
+- [x] Create an github static website for this project
