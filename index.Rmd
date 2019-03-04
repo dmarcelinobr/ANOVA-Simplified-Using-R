@@ -7,6 +7,12 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
+colorlinks: yes
+lot: yes
+lof: yes
+fontsize: 13pt
+monofont: "Source Code Pro"
+monofontoptions: "Scale=0.7"
 description: "This is a minimal set of notes that form the foundation of my introduction to  the research methods for political science."
 github-repo: "danielmarcelino/ANOVA-Simplified-Using-R"
 cover-image: "images/cover.jpg"
@@ -14,3 +20,20 @@ apple-touch-icon: "images/touch-icon.png"
 apple-touch-icon-size: 120
 favicon: "images/favicon.ico"
 ---
+
+
+```{r setup, include=FALSE}
+options(
+  htmltools.dir.version = FALSE, formatR.indent = 2,
+  width = 55, digits = 4, warnPartialMatchAttr = FALSE, warnPartialMatchDollar = FALSE
+)
+local({
+  r = getOption('repos')
+  if (!length(r) || identical(unname(r['CRAN']), '@CRAN@'))
+    r['CRAN'] = 'https://cran.rstudio.com' 
+  options(repos = r)
+})
+lapply(c('DT', 'citr', 'formatR', 'svglite'), function(pkg) {
+  if (system.file(package = pkg) == '') install.packages(pkg)
+})
+```

@@ -1,5 +1,12 @@
 book_filename: "ANOVA Simplified Using R"
+repo: https://github.com/danielmarcelino/ANOVA-Simplified-Using-R/
+output_dir: _book
+clean: [packages.bib, bookdown.bbl]
 delete_merged_file: true
 language:
+  label:
+    fig: "FIGURE "
+    tab: "TABLE "
   ui:
-    chapter_name: "Chapter "
+    edit: "Edit"
+    chapter_name: "Chapter " 
