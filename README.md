@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/5es7emxv7pwfx5pk?svg=true)](https://ci.appveyor.com/project/danielmarcelino/anova-simplified-using-r)
+
 
 This is a set of notes introducing the Analysis of Variance (ANOVA for short) for hypothesis testing using R.
 
@@ -12,21 +14,21 @@ This is a set of notes introducing the Analysis of Variance (ANOVA for short) fo
 
 ## What is Anova and what is its purpose?
 
-- [ ] Concepts
+- [x] Concepts
     - [ ] Examples
 
 ## What are the various types of Anova that can be calculated?
 
-- [ ] Add a table with various types of Anova
+- [x] Add a table with various types of Anova
 
 
 ## Can you explain the various types of Anova in more details?
 
-- [ ] Add summarized explanations about the various types of Anova
+- [x] Add summarized explanations about the various types of Anova
 
 ## What is replication?
 
-- [ ] Concepts
+- [x] Concepts
     - [ ] Examples
 
 ## Is there any limitation of one-way Anova calculation?
